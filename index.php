@@ -23,9 +23,9 @@
             echo "<strong>$type Guitar</strong><br>";
 
             if ($type == "Electric") {
-                echo "<a href='electric.php'>View $type Guitars</a>";
+                echo "<a href='/page/electric/index.php'>View $type Guitars</a>";
             } elseif ($type == "Acoustic") {
-                echo "<a href='acoustic.php'>View $type Guitars</a>";
+                echo "<a href='/page/acoustic/index.php'>View $type Guitars</a>";
             } else {
                 echo "More info coming soon!";
             }
