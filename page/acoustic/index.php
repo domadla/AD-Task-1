@@ -11,24 +11,24 @@
         <h1>Sixth String</h1>
     </header>
     <main>
-        <h2>Explore Our Collection</h2>
+        <h2>Explore Our Acoustic Guitar Collection</h2>
 
         <?php
         $guitars = [
             [
                 "image" => "assets/img/Taylor.png",
-                "name" => "1954 Telecaster",
-                "description" => "The Fender Telecaster is widely used for its sharp, twangy sound that cuts through mixes, making it a go-to for country and rock guitarists. Its smooth playability and strong tone also suit blues, punk, and indie styles. Many players use it for both rhythm and lead due to its versatility and reliability."
+                "name" => "Taylor Guitars 317E",
+                "description" => "The Taylor 317e is a Grand Pacific-style acoustic guitar known for its warm, rounded tone and strong low-end response. It's often used for strumming, singer-songwriter performances, and full-bodied rhythm work. The built-in electronics also make it great for live acoustic sets with clear, natural sound."
             ],
             [
-                "image" => "assets/img/GibLesPaul.png",
-                "name" => "1954 Les Paul Black Beauty",
-                "description" => "Gibson Les Paul guitars are known for their warm, rich tone and long sustain, making them popular in rock, blues, and metal. They're often used for heavy riffs and expressive solos thanks to their humbucker pickups. Many iconic guitarists use Les Pauls for their powerful, full-bodied sound on stage and in the studio."
+                "image" => "assets/img/AcGibson.png",
+                "name" => "Gibson Hummingbird Studio",
+                "description" => "The Gibson Hummingbird Studio Rosewood is prized for its rich, balanced tone and stunning visual detail. It's often used by folk, rock, and country artists for both strumming and fingerpicking. Its warm projection and smooth playability make it ideal for studio recording and live acoustic performances."
             ],
             [
-                "image" => "assets/img/JazzMaster.png",
-                "name" => "1963 Jazzmaster Relic",
-                "description" => "The Fender Jazzmaster is favored in surf rock, indie, and alternative music for its smooth, mellow tone and unique offset body. Its floating tremolo system allows for expressive pitch bends and subtle vibrato. Players often use it for ambient textures, clean rhythms, and experimental sounds."
+                "image" => "assets/img/AcEpiphone.png",
+                "name" => "Epiphone AJ-100CEc",
+                "description" => "The Epiphone AJ-100CE is a budget-friendly acoustic-electric guitar known for its strong projection and comfortable playability. It's commonly used by beginners and gigging musicians for strumming and light fingerpicking. With built-in electronics, it's great for casual performances and practice with amplification."
             ]
         ];
 
