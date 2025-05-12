@@ -9,6 +9,13 @@
 <body>
     <header>
         <h1>Sixth String</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.php">Home</a></li>
+                <li><a href="/page/acoustic/index.php">Acoustic Guitars</a></li>
+                <li><a href="/page/electric/index.php">Electric Guitars</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <h2>Explore Our Acoustic Guitar Collection</h2>
