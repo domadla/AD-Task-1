@@ -7,26 +7,36 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Welcome to Sixth String</h1>
-    <p>Check out our guitars:</p>
+    <header>
+        <h1>Sixth String</h1>
+    </header>
 
-    <?php
-    $guitar_types = array("Acoustic", "Electric");
+    <main>
+        <h2>Welcome to Sixth String</h2>
+        <p>Check out our guitars:</p>
 
-    foreach ($guitar_types as $type) {
-        echo "<div class='guitar-box'>";
-        echo "<strong>$type Guitar</strong><br>";
+        <?php
+        $guitar_types = array("Acoustic", "Electric");
 
-        if ($type == "Electric") {
-            echo "<a href='electric.php'>View $type Guitars</a>";
-        } elseif ($type == "Acoustic") {
-            echo "<a href='acoustic.php'>View $type Guitars</a>";
-        } else {
-            echo "More info coming soon!";
+        foreach ($guitar_types as $type) {
+            echo "<div class='guitar-box'>";
+            echo "<strong>$type Guitar</strong><br>";
+
+            if ($type == "Electric") {
+                echo "<a href='electric.php'>View $type Guitars</a>";
+            } elseif ($type == "Acoustic") {
+                echo "<a href='acoustic.php'>View $type Guitars</a>";
+            } else {
+                echo "More info coming soon!";
+            }
+
+            echo "</div>";
         }
+        ?>
+    </main>
 
-        echo "</div>";
-    }
-    ?>
+    <footer>
+        <p>&copy; 2025 Sixth String. All rights reserved.</p>
+    </footer>
 </body>
 </html>
