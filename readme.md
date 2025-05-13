@@ -9,15 +9,11 @@
   </a>
   <h3 align="center">Sixth String</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   Sixth String is a guitar showcase website that features a curated collection of guitars. Each guitar includes a short description highlighting its tone, design, and common uses.
 </div>
 
 <br />
-
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
 ![](https://visit-counter.vercel.app/counter.png?page=domadla/AD-Task-1)
 
@@ -59,15 +55,35 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+Header:
+
+Website title: "Sixth String".
+Navigation bar with links to:
+Home.
+Acoustic Guitars.
+Electric Guitars.
+
+Main Content:
+Home page:
+Displays guitar types (Acoustic and Electric) with links to their respective pages.
+
+Acoustic Guitars page:
+Lists acoustic guitars with images, names, and descriptions.
+
+Electric Guitars page:
+Lists electric guitars with images, names, and descriptions.
+
+Footer:
+Displays copyright information.
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Dynamic Content with PHP: Arrays to store guitar data (image, name, description).
+foreach loops to dynamically generate HTML for guitar listings.
+Conditional statements to handle specific links or content.
 
 ### Technology
 
@@ -126,11 +142,11 @@ AD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title                  | Purpose                  | Link                                                                 |
+|------------------------|--------------------------|----------------------------------------------------------------------|
+| FenderTele.png         | Display Image            | https://www.fendercustomshop.com/1954-telecaster/                    |
+| GibLesPaul.png         | Display Image            | https://www.gibson.com/en-US/Electric-Guitar/Les-Paul                |
+| JazzMaster.png         | Display Image            | https://www.fender.com/en-US/electric-guitars/jazzmaster/            |
+| AcGibson.png           | Display Image            | https://www.gibson.com/en-US/Acoustic-Guitar/                        |
+| Taylor.png             | Display Image            | https://www.taylorguitars.com/guitars/acoustic/814ce                 |
+| AcEpiphone.png         | Display Image            | https://www.epiphone.com/en-US/Acoustic-Guitar/                      |
