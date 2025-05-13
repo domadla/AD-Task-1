@@ -62,18 +62,16 @@ Navigation bar with links to:
 Home.
 Acoustic Guitars.
 Electric Guitars.
-
 Main Content:
+
 Home page:
 Displays guitar types (Acoustic and Electric) with links to their respective pages.
-
 Acoustic Guitars page:
 Lists acoustic guitars with images, names, and descriptions.
-
 Electric Guitars page:
 Lists electric guitars with images, names, and descriptions.
-
 Footer:
+
 Displays copyright information.
 
 ### Key Components
